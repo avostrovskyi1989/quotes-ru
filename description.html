@@ -1,0 +1,522 @@
+<!doctype html>
+<html data-n-head-ssr>
+
+<head>
+  <title>quote</title>
+  <meta data-n-head="ssr" charset="utf-8">
+  <meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1">
+  <meta data-n-head="ssr" data-hid="description" name="description" content="My exceptional Nuxt.js project">
+  <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link data-n-head="ssr" rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,500|Lora:700&display=swap&subset=cyrillic">
+  <link data-n-head="ssr" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link data-n-head="ssr" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <link rel="preload" href="/19fe09d1108c5ee4ba8b.css" as="style">
+  <link rel="stylesheet" href="/94d6aec5533f9e42c2a1.css">
+  <link rel="stylesheet" href="/19fe09d1108c5ee4ba8b.css">
+</head>
+
+<body>
+  <div data-server-rendered="true" id="__nuxt">
+    <!---->
+    <div id="__layout">
+      <div class="flex flex-col min-h-screen">
+        <header class="bg-black-lighten h-70">
+          <div class="container flex items-center h-full relative px-half sm_px-base"><button id="mobile"
+              class="w-40 flex flex-col lg_hidden mr-20 focus_outline-none"><span
+                class="block h-4 w-40 rounded bg-white mb-6"></span><span
+                class="block h-4 w-40 rounded bg-white mb-6"></span><span
+                class="block h-4 w-40 rounded bg-white"></span></button><img src="/logomain.svg"
+              class="h-60 w-200 sm_block mx-auto lg_mx-0 hidden"><img src="/logomobile.svg"
+              class="h-60 w-200 block mx-auto lg_mx-0 sm_hidden">
+            <div class="ml-auto hidden lg_block"><a href="/signup"
+                class="font-base text-white rounded inline-flex items-center h-40 px-20 bg-blue hover_bg-blue-light">Регистрация</a><a
+                href="/signin"
+                class="font-base text-white rounded ml-base inline-flex items-center h-40 px-20 border hover_border-blue hover_bg-blue hover_text-white">Вход</a>
+            </div>
+            <div id="mobile-menu" class="hidden">
+              <div id="mobile-overlay" class="fixed top-0 left-0 bottom-0 right-0 w-full h-full bg-overlay z-30"></div>
+              <div class="flex flex-col absolute bg-white top-0 left-0 z-40">
+                <div class="flex p-20"><a href="/signup"
+                    class="font-base text-white rounded mr-20 inline-flex items-center h-40 px-20 bg-blue hover_bg-blue-light">Регистрация</a><a
+                    href="/signin"
+                    class="font-base text-white rounded inline-flex items-center h-40 px-20 border border-blue text-blue hover_border-blue hover_bg-blue hover_text-white">Вход</a>
+                </div>
+                <nav>
+                  <ul class="-mt-half">
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#quote"></use>
+                        </svg><span>Цитаты</span></a></li>
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#dice"></use>
+                        </svg><span>Случайная цитата</span></a></li>
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue text-blue"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#vision"></use>
+                        </svg><span>Статусы</span></a></li>
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#king"></use>
+                        </svg><span>Личности</span></a></li>
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#books"></use>
+                        </svg><span>Книги</span></a></li>
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue bg nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#camera"></use>
+                        </svg><span>Фильмы</span></a></li>
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#reet"></use>
+                        </svg><span>Сериалы</span></a></li>
+                    <li class="py-half px-20 border-b"><a href="/"
+                        class="flex items-center hover_text-blue nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#picture"></use>
+                        </svg><span>Картинки</span></a></li>
+                    <li class="py-half px-20"><a href="/"
+                        class="flex items-center hover_text-blue nuxt-link-active"><svg width="20" height="20"
+                          class="fill-current mr-20">
+                          <use xlink:href="/icons/sprite.svg#video"></use>
+                        </svg><span>Видео</span></a></li>
+                  </ul>
+                </nav>
+              </div>
+              <script>
+                $(document).ready(function () {
+                  $("#mobile").on("click", function () {
+                    $("#mobile-menu").toggleClass("hidden")
+                  }), $("#mobile-overlay").on("click", function () {
+                    $("#mobile-menu").addClass("hidden")
+                  })
+                })
+
+              </script>
+            </div>
+          </div>
+        </header>
+        <section>
+          <section class="breadcrumbs">
+            <ul class="breadcrumbs__list container px-half sm_px-base">
+              <li class="breadcrumbs__item"><a href="/" class="breadcrumbs__link"><svg width="14" height="14"
+                    class="breadcrumbs__icon fill-current">
+                    <use xlink:href="/icons/sprite.svg#home"></use>
+                  </svg><span>Главная</span></a></li>
+              <li class="breadcrumbs__item"><a href="/personals" class="breadcrumbs__link">Личности</a></li>
+              <li class="breadcrumbs__item"><a href="/personals" class="breadcrumbs__link">Артур Шопенгауэр</a></li>
+            </ul>
+          </section>
+        </section>
+        <script>
+          $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+              items: 1
+            })
+          })
+
+        </script>
+        <div class="flex-auto container px-0 sm_px-base">
+          <div class="sm_-mx-half flex flex-col md_flex-row">
+            <aside class="w-3 px-half py-60 hidden lg_block">
+              <nav>
+                <ul class="-my-half">
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#quote"></use>
+                      </svg><span>Цитаты</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#dice"></use>
+                      </svg><span>Случайная цитата</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue text-blue"><svg width="20"
+                        height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#vision"></use>
+                      </svg><span>Статусы</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#king"></use>
+                      </svg><span>Личности</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#books"></use>
+                      </svg><span>Книги</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#camera"></use>
+                      </svg><span>Фильмы</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#reet"></use>
+                      </svg><span>Сериалы</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#picture"></use>
+                      </svg><span>Картинки</span></a></li>
+                  <li class="py-half"><a href="/" class="flex items-center hover_text-blue nuxt-link-active"><svg
+                        width="20" height="20" class="fill-current mr-20">
+                        <use xlink:href="/icons/sprite.svg#video"></use>
+                      </svg><span>Видео</span></a></li>
+                </ul>
+              </nav>
+              <div class="mt-60 w-full rounded bg-white p-half">
+                <div class="text-center mb-20">Реклама</div><img src="https://placeimg.com/640/480/any"
+                  class="block w-full">
+              </div>
+            </aside>
+            <main class="pt-60 w-full md_w-7 lg_w-6 sm_px-half mb-60">
+              <section class="bg-white p-20 mb-60">
+                <div class="font-heading text-lg mb-base">Цитаты Артура Шопенгауэра</div>
+                <div class="mb-base flex"><img src="https://placeimg.com/640/480/people"
+                    class="block w-100 h-120 mr-20">
+                  <div class="flex flex-col">
+                    <div class="font-heading text-lg mb-half">Артур Шопенгауэр</div>
+                    <ul class="list-none">
+                      <li class="text-13 mb-10"><span class="text-grey">Род деятельности: </span><span>Писатель</span>
+                      </li>
+                      <li class="text-13 mb-10"><span class="text-grey">Дата рождения: </span><span>22 февраля
+                          1788</span></li>
+                      <li class="text-13"><span class="text-grey">Дата смерти: </span><span>21 сентября 1860</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mb-base">
+                  <div class="font-heading mb-half">Об авторе:</div>
+                  <p class="text-grey leading-relaxed">Артур Шопенгауэр -один из самых известных мыслителей
+                    иррационализма, мизантроп. Тяготел к немецкому романтизму, увлекался мистикой, очень высоко оценивал
+                    основные работы Иммануила Канта, называя их «самым важным явлением, какое только знает философия в
+                    течение двух тысячелетий», ценил философские идеи буддизма (в его кабинете стояли бюст Канта и
+                    бронзовая статуэтка Будды), Упанишад, а также Эпиктета, Цицерона и других.</p>
+                </div>
+                <div class="mb-base">
+                  <div class="font-heading mb-half">Книги:</div>
+                  <ul class="list-none">
+                    <li class="mb-10"><a href="/" class="text-blue text-13 hover_underline focus_underline">“Мысли”</a>
+                    </li>
+                    <li class="mb-10"><a href="/" class="text-blue text-13 hover_underline focus_underline">“Афоризмы
+                        житейской мудрости”</a></li>
+                    <li><a href="/" class="text-blue text-13 hover_underline focus_underline">“Искусство побеждать в
+                        спорах”</a></li>
+                  </ul>
+                </div><a href="/"
+                  class="font-base text-white rounded nuxt-link-active inline-flex items-center h-40 px-20 bg-green hover_bg-green-lighten focus_outline-none">Купить
+                  книги</a>
+              </section>
+              <section class="mb-20 px-half sm_px-0">
+                <div class="select rounded">
+                  <div class="select__title">Все категории</div><button class="select__btn"><svg width="20" height="20"
+                      class="fill-current">
+                      <use xlink:href="/icons/sprite.svg#chevron"></use>
+                    </svg></button>
+                  <ul class="select__list" style="display:none">
+                    <li class="select__item"><button class="select__link active">Все категории</button></li>
+                    <li class="select__item"><button class="select__link">Дружба</button></li>
+                    <li class="select__item"><button class="select__link">Любовь</button></li>
+                    <li class="select__item"><button class="select__link">Семья</button></li>
+                  </ul>
+                  <script>
+                    $(".select__btn").on("click", function () {
+                      $(".select__list").slideToggle()
+                    }), $(".select__link").on("click", function (e) {
+                      $(".select__title").text(e.target.textContent), $(".select__link").removeClass("active"), $(
+                        this).addClass("active"), $(".select__list").slideToggle()
+                    })
+
+                  </script>
+                </div>
+              </section>
+              <section class="mb-20 px-half sm_px-0">
+                <ul class="list-none flex flex-wrap -m-10">
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-white border-grey-light border text-grey hover_text-black-lighten focus_text-white focus_bg-green focus_border-green">
+                      <!---->Дружба</a></li>
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-white border-grey-light border text-grey hover_text-black-lighten focus_text-white focus_bg-green focus_border-green">
+                      <!---->Любовь</a></li>
+                </ul>
+              </section>
+              <section>
+                <ul class="list-none">
+                  <li class="bg-white mb-4 p-20">
+                    <header class="flex text-grey mb-base"><img src="https://placeimg.com/640/480/people"
+                        class="block w-50 h-50 rounded-full mr-10">
+                      <div class="flex flex-col">
+                        <div class="text-xxs mb-4">Писатели</div><a href="/"
+                          class="font-heading font-bold text-blue text-lg hover_underline nuxt-link-active">Джером К.
+                          Джером</a>
+                        <div class="text-xs pt-10">Книга:<a href="/"
+                            class="text-blue hover_underline nuxt-link-active">“Трое в лодке, не считая собаки.
+                            Рассказы”</a></div>
+                      </div><button
+                        class="h-20 w-20 flex justify-center ml-auto hover_text-green focus_text-green focus_outline-none"><svg
+                          width="15" height="20" class="fill-current">
+                          <use xlink:href="/icons/sprite.svg#bookmark"></use>
+                        </svg></button>
+                    </header>
+                    <p class="italic text-grey mb-20 leading-normal"><svg width="20" height="14"
+                        class="fill-current text-blue inline-flex items-start mr-4">
+                        <use xlink:href="/icons/sprite.svg#quote-open"></use>
+                      </svg>Вообще, как я заметил, почти все вещи в этом мире выглядят на картинах куда лучше, чем в
+                      действительности.<svg width="20" height="14" class="fill-current text-blue inline-flex ml-4">
+                        <use xlink:href="/icons/sprite.svg#quote-close"></use>
+                      </svg></p>
+                    <footer>
+                      <ul class="flex items-center mb-20">
+                        <li class="mr-20 sm_mr-40"><button
+                            class="text-grey hover_text-red focus_text-red focus_outline-none flex-col flex items-center justify-center"><span
+                              class="text-lg mb-4">12</span><svg width="30" height="25" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#heart"></use>
+                            </svg></button></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-facebook"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#facebook"></use>
+                            </svg></a></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-google"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#google"></use>
+                            </svg></a></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-twitter"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#twitter"></use>
+                            </svg></a></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-vk"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#vk"></use>
+                            </svg></a></li>
+                        <li><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-linkedin"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#linkedin"></use>
+                            </svg></a></li>
+                      </ul>
+                      <ul class="list-none flex flex-wrap -m-10">
+                        <li class="p-10"><a href="/"
+                            class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-white border-grey-light border text-grey hover_text-black-lighten focus_text-white focus_bg-blue focus_border-blue"><svg
+                              width="15" height="15" class="fill-current mr-4">
+                              <use xlink:href="/icons/sprite.svg#label"></use>
+                            </svg>Дружба</a></li>
+                        <li class="p-10"><a href="/"
+                            class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-white border-grey-light border text-grey hover_text-black-lighten focus_text-white focus_bg-blue focus_border-blue"><svg
+                              width="15" height="15" class="fill-current mr-4">
+                              <use xlink:href="/icons/sprite.svg#label"></use>
+                            </svg>Любовь</a></li>
+                      </ul>
+                    </footer>
+                  </li>
+                  <li class="bg-white mb-4 p-20">
+                    <header class="flex text-grey mb-base"><img src="https://placeimg.com/640/480/people"
+                        class="block w-50 h-50 rounded-full mr-10">
+                      <div class="flex flex-col">
+                        <div class="text-xxs mb-4">Писатели</div><a href="/"
+                          class="font-heading font-bold text-blue text-lg hover_underline nuxt-link-active">Джером К.
+                          Джером</a>
+                      </div><button
+                        class="h-20 w-20 flex justify-center ml-auto hover_text-green focus_text-green focus_outline-none"><svg
+                          width="15" height="20" class="fill-current">
+                          <use xlink:href="/icons/sprite.svg#bookmark"></use>
+                        </svg></button>
+                    </header><img src="https://placeimg.com/640/480/any" class="block mb-20 w-full">
+                    <p class="italic text-grey mb-20 leading-normal"><svg width="20" height="14"
+                        class="fill-current text-blue inline-flex items-start mr-4">
+                        <use xlink:href="/icons/sprite.svg#quote-open"></use>
+                      </svg>Вообще, как я заметил, почти все вещи в этом мире выглядят на картинах куда лучше, чем в
+                      действительности.<svg width="20" height="14" class="fill-current text-blue inline-flex ml-4">
+                        <use xlink:href="/icons/sprite.svg#quote-close"></use>
+                      </svg></p>
+                    <footer>
+                      <ul class="flex items-center mb-20">
+                        <li class="mr-20 sm_mr-40"><button
+                            class="text-grey hover_text-red focus_text-red focus_outline-none flex-col flex items-center justify-center"><span
+                              class="text-lg mb-4">12</span><svg width="30" height="25" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#heart"></use>
+                            </svg></button></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-facebook"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#facebook"></use>
+                            </svg></a></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-google"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#google"></use>
+                            </svg></a></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-twitter"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#twitter"></use>
+                            </svg></a></li>
+                        <li class="mr-half"><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-vk"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#vk"></use>
+                            </svg></a></li>
+                        <li><a href="#" target="_blank"
+                            class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-white hover_bg-linkedin"><svg
+                              width="15" height="15" class="fill-current">
+                              <use xlink:href="/icons/sprite.svg#linkedin"></use>
+                            </svg></a></li>
+                      </ul>
+                      <ul class="list-none flex flex-wrap -m-10">
+                        <li class="p-10"><a href="/"
+                            class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-white border-grey-light border text-grey hover_text-black-lighten focus_text-white focus_bg-blue focus_border-blue"><svg
+                              width="15" height="15" class="fill-current mr-4">
+                              <use xlink:href="/icons/sprite.svg#label"></use>
+                            </svg>Дружба</a></li>
+                        <li class="p-10"><a href="/"
+                            class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-white border-grey-light border text-grey hover_text-black-lighten focus_text-white focus_bg-blue focus_border-blue"><svg
+                              width="15" height="15" class="fill-current mr-4">
+                              <use xlink:href="/icons/sprite.svg#label"></use>
+                            </svg>Любовь</a></li>
+                      </ul>
+                    </footer>
+                  </li>
+                </ul>
+              </section>
+            </main>
+            <aside class="w-full md_w-5 lg_w-3 px-half py-60">
+              <h2 class="font-heading font-bold text-lg text-blue mb-10">Популярные темы</h2>
+              <ul class="list-none">
+                <li class="border-b border-grey-light py-10"><a href="/"
+                    class="flex hover_text-blue text-15 nuxt-link-active">Дружба<span
+                      class="ml-auto pl-half">123</span></a></li>
+                <li class="border-b border-grey-light py-10"><a href="/"
+                    class="flex hover_text-blue text-15 nuxt-link-active">Семья<span
+                      class="ml-auto pl-half">123</span></a></li>
+                <li class="border-b border-grey-light py-10"><a href="/"
+                    class="flex hover_text-blue text-15 nuxt-link-active">Любовь<span
+                      class="ml-auto pl-half">123</span></a></li>
+                <li class="border-b border-grey-light py-10"><a href="/"
+                    class="flex hover_text-blue text-blue text-15 nuxt-link-active">Счастье<span
+                      class="ml-auto pl-half">123</span></a></li>
+                <li class="border-b border-grey-light py-10"><a href="/"
+                    class="flex hover_text-blue text-15 nuxt-link-active">Мотивация<span
+                      class="ml-auto pl-half">123</span></a></li>
+                <li class="py-10"><a href="/" class="flex hover_text-blue text-15 nuxt-link-active">Грусть<span
+                      class="ml-auto pl-half">123</span></a></li>
+              </ul>
+              <div class="mt-40 w-full rounded bg-white p-half">
+                <div class="mb-20 font-heading text-lg font-bold">Мы на  <span class="text-facebook">facebook</span>
+                </div><img src="https://placeimg.com/640/480/any" class="block w-full">
+              </div>
+              <div class="mt-40 w-full rounded bg-white p-half">
+                <div class="text-center mb-20">Реклама</div><img src="https://placeimg.com/640/480/any"
+                  class="block w-full">
+              </div>
+              <div class="mt-40 w-full rounded bg-white p-half">
+                <div class="mb-20 font-heading text-lg font-bold">Мы на  <span class="text-pinterest">pinterest</span>
+                </div><img src="https://placeimg.com/640/480/any" class="block w-full">
+              </div>
+            </aside>
+          </div>
+        </div>
+        <footer class="bg-black-lightest">
+          <div class="container px-half sm_px-base">
+            <div class="-mx-half flex flex-wrap justify-between py-base">
+              <div class="w-full lg_w-4 xl_w-3 mb-base lg_mb-0 px-half"><img src="/logomain.svg"
+                  class="h-60 w-200 block mb-20">
+                <div class="text-grey-light">Здесь вы можете найти цитаты известных личностей, спортсменов, писателей,
+                  мыслителей и много другого</div>
+              </div>
+              <div class="w-full md_w-5 lg_w-4 xl_w-3 mb-base md_mb-0 px-half">
+                <h3 class="mb-base font-medium text-lg text-white">Меню сайта</h3>
+                <ul class="list-none">
+                  <li class="border-b border-black-lighten py-10"><a href="/"
+                      class="flex text-grey hover_text-white text-sm nuxt-link-active"><span>Цитаты</span><span
+                        class="ml-auto">12</span></a></li>
+                  <li class="border-b border-black-lighten py-10"><a href="/"
+                      class="flex text-grey hover_text-white text-sm nuxt-link-active"><span>Статусы</span><span
+                        class="ml-auto">12</span></a></li>
+                  <li class="border-b border-black-lighten py-10"><a href="/"
+                      class="flex text-grey hover_text-white text-sm nuxt-link-active"><span>Личности</span><span
+                        class="ml-auto">12</span></a></li>
+                </ul>
+              </div>
+              <div class="w-full md_w-7 lg_w-4 xl_w-3 px-half">
+                <h3 class="mb-base font-medium text-lg text-white">Популярные темы</h3>
+                <ul class="list-none flex flex-wrap -m-10">
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-grey text-white hover_bg-blue"><svg
+                        width="15" height="15" class="fill-current mr-4">
+                        <use xlink:href="/icons/sprite.svg#label"></use>
+                      </svg>Дружба</a></li>
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-grey text-white hover_bg-blue"><svg
+                        width="15" height="15" class="fill-current mr-4">
+                        <use xlink:href="/icons/sprite.svg#label"></use>
+                      </svg>Любовь</a></li>
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-grey text-white hover_bg-blue"><svg
+                        width="15" height="15" class="fill-current mr-4">
+                        <use xlink:href="/icons/sprite.svg#label"></use>
+                      </svg>Счастье</a></li>
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-grey text-white hover_bg-blue"><svg
+                        width="15" height="15" class="fill-current mr-4">
+                        <use xlink:href="/icons/sprite.svg#label"></use>
+                      </svg>Семья</a></li>
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-grey text-white hover_bg-blue"><svg
+                        width="15" height="15" class="fill-current mr-4">
+                        <use xlink:href="/icons/sprite.svg#label"></use>
+                      </svg>Мотивация</a></li>
+                  <li class="p-10"><a href="/"
+                      class="inline-flex items-center h-base px-10 rounded text-13 nuxt-link-active bg-grey text-white hover_bg-blue"><svg
+                        width="15" height="15" class="fill-current mr-4">
+                        <use xlink:href="/icons/sprite.svg#label"></use>
+                      </svg>Грусть</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="bg-black-lighten md_h-70 py-20 md_py-0">
+            <div
+              class="container px-half sm_px-base h-full flex flex-col md_flex-row md_items-center justify-center md_justify-start">
+              <div class="text-grey text-center md_text-left mb-20 md_mb-0">©Citatyonline 2019</div>
+              <ul class="flex flex-wrap md_ml-auto mb-20 md_mb-0">
+                <li class="mr-60"><a href="/about" class="text-white hover_text-blue">О нас</a></li>
+                <li><a href="/contacts" class="text-white hover_text-blue">Контакты</a></li>
+              </ul>
+              <ul class="flex justify-center md_justify-start md_ml-60">
+                <li class="mr-half"><a href="#" target="_blank"
+                    class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-black-lignten hover_text-white hover_bg-facebook"><svg
+                      width="15" height="15" class="fill-current">
+                      <use xlink:href="/icons/sprite.svg#facebook"></use>
+                    </svg></a></li>
+                <li class="mr-half"><a href="#" target="_blank"
+                    class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-black-lignten hover_text-white hover_bg-instagram"><svg
+                      width="15" height="15" class="fill-current">
+                      <use xlink:href="/icons/sprite.svg#instagram"></use>
+                    </svg></a></li>
+                <li><a href="#" target="_blank"
+                    class="flex items-center justify-center w-base h-base rounded-full bg-grey-light text-black-lignten hover_text-white hover_bg-pinterest"><svg
+                      width="15" height="15" class="fill-current">
+                      <use xlink:href="/icons/sprite.svg#pinterest"></use>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
